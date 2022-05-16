@@ -3,9 +3,9 @@
 const numbers = [12, 21, 38, 5, 45, 37, 6];
 function average(array) {
   let number = 0;
-  let total = array.length;
-  for (const iterator of array) {
-    number += iterator;
+  let lengthNumbers = array.length;
+  for (const index of array) {
+    number += index;
   }
   return number / total;
 }

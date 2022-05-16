@@ -7,6 +7,6 @@ function average(array) {
   for (const index of array) {
     number += index;
   }
-  return number / total;
+  return number/total;
 }
 console.log(average(numbers));
